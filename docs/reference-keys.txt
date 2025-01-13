@@ -1,6 +1,11 @@
 fig:nice-fig
 tab:nice-tab
-prerequisites
+workshop-overview
+begin-pitch
+structureworkshop
+where-prior_experience-false
+for-x-in-example1example5-annotatex
+if-attendee_need-learn_programming_logic-printregister-for-this-workshop
 intro
 literature
 methods

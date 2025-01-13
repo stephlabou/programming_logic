@@ -1,6 +1,6 @@
 --- 
-title: "A Minimal Book Example"
-author: "Yihui Xie"
+title: "Programming logic for non-programmers"
+author: "Katherine E. Koziar & Stephanie Labou"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 output: bookdown::gitbook
@@ -8,25 +8,30 @@ documentclass: book
 bibliography: [book.bib, packages.bib]
 biblio-style: apalike
 link-citations: yes
-github-repo: rstudio/bookdown-demo
-description: "This is a minimal example of using the bookdown package to write a book. The output format for this example is bookdown::gitbook."
+github-repo: stephlabou/programming_logic
+description: "Content for workshop at RDAP 2025 conference"
 ---
 
-# Prerequisites
+# Workshop overview
 
-This is a _sample_ book written in **Markdown**. You can use anything that Pandoc's Markdown supports, e.g., a math equation $a^2 + b^2 = c^2$.
+### BEGIN pitch()
 
-The **bookdown** package can be installed from CRAN or Github:
+Have you ever wondered how some of your colleagues can look at a computer programming script, with little prior knowledge of the language, and not only read it, but help fix the code?  It’s not because they know all programming languages, but because most programming languages use the same concepts and logic.
 
-```{r eval=FALSE}
-install.packages("bookdown")
-# or the development version
-# devtools::install_github("rstudio/bookdown")
-```
+### STRUCTURE(workshop)
 
-Remember each Rmd file contains one and only one chapter, and a chapter is defined by the first-level heading `#`.
+In this interactive workshop, attendees will gain hands-on experience to understand and interpret programming logic. We will cover fundamental topics in programming including: conditional statements, loops, order of operations and logical flow, functions and arguments, and data types. Attendees will practice formulating programming arguments to accomplish common tasks, such as subsetting data based on a set of conditions. 
 
-To compile this example to PDF, you need XeLaTeX. You are recommended to install TinyTeX (which includes XeLaTeX): <https://yihui.org/tinytex/>.
+### WHERE prior_experience == FALSE
+
+No coding experience required! Programming logic is transferable across specific languages, so learners will focus on concepts, rather than specific syntax from a specific language. Attendees will learn to interpret programming logic and build confidence to apply their understanding to various programming languages they may encounter.
+
+### FOR (x in example1:example5) {annotate(x)}
+
+To provide real world examples of programming logic in practice, the workshop will integrate hands-on work time with examples of sample code written in R, Python, SQL, Stata, and other languages. Attendees will practice annotating code in human understandable language and discuss the process, and any pitfalls, with their peers and the instructors. 
+
+### IF attendee_need == “learn_programming_logic”: print(“register for this workshop!”)
+
 
 ```{r include=FALSE}
 # automatically create a bib database for R packages
